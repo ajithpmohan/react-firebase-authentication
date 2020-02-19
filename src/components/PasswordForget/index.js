@@ -5,4 +5,5 @@ const PasswordForget = () => (
     <h1>PasswordForget</h1>
   </div>
 );
+
 export default PasswordForget;
