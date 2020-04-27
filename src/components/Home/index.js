@@ -34,7 +34,6 @@ class MessagesBase extends Component {
 
   onListenForMessages() {
     this.setState({ loading: true });
-    console.log('limit', this.state.limit);
     this.props.firebase
       .messages()
       .orderByChild('createdAt')
